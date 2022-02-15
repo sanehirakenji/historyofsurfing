@@ -1,0 +1,39 @@
+h1,h2 {
+font-family:Rokkitt, sans-serif;
+  text-align: center;
+}
+p{
+  font-family:Roboto, sans-serif;
+}
+body{
+  color: lightyellow;
+  background-image: url(https://i0.heartyhosting.com/www.surfer.com/wp-content/uploads/2019/12/greg-long.jpg?resize=1920%2C1080&ssl=1);
+}
+ul{
+  list-style: none;
+
+}
+li{
+  display: inline-block;
+  padding: 3%;
+}
+
+.imageCont {
+  position: relative;
+  text-align: center;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Roboto;
+  font-size: 30px;
+}
+.image{
+  width: 200px;
+  height: 200px;
+}
+.center {
+  align-content: center;
+}
